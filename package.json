@@ -1,0 +1,21 @@
+{
+  "name": "gulp-tasks",
+  "version": "0.1.0",
+  "description": "gulp tasks moved to module to avoid of copying copy them over and over again",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "babelrc-rollup": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^3.1.0",
+    "rollup": "^0.57.1",
+    "rollup-load-plugins": "^0.3.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-includepaths": "^0.2.2",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-progress": "^0.4.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-visualizer": "^0.4.0"
+  }
+}
