@@ -58,3 +58,13 @@ Or run as NPM script: `"scripts": {"bulid": "gulp", "styles": "gulp styles" }`
 > TIP: No need to install `gulp-cli` to your project if using NPM script. 
 
 Or run with `npx gulp` or `npx gulp styles`
+
+## Develop
+
+1. Clone this repository
+2. `cd gulp-tasks`
+3. `yarn link`
+4. `cd ../project-using-gulp-tasks`
+5. `yarn link gulp-tasks` 
+
+Now, you can change code in this module and test in your project.
